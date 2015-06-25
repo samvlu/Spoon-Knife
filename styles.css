@@ -1,12 +1,25 @@
+body {
+	background: #ECFFFF;
+}
 * {
   margin:0px;
   padding:0px;
 }
 
+.container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -184px;
+	margin-left: -192px;
+	height: 368px;
+	width: 384px;
+}
+
 #octocat {
   display: block;
   width:384px;
-  margin: 50px auto;
+  margin: auto;
 }
 
 p {
